@@ -14,13 +14,13 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className='bg-slate-100 h-full'>
+    <html lang="en" className='bg-slate-100'>
       <body>
       <Navbar/>
       <Hero/>
+      <Contact/>
       <Content/>
       <Deals/>
-      <Contact/>
       <Footer/>
       </body>
     </html>

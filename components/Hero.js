@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <main className='flex content-center border-cyan-400 relative py-3 px-4 m-1 h-fit w-fit object-contain flex-wrap'>
+    <main className='flex content-center border-cyan-400 relative py-3 px-4 m-1 object-contain flex-wrap'>
       <section>
     <Image 
     src="\hero.svg"
