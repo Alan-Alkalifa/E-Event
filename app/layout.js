@@ -5,6 +5,7 @@ import Deals from "@/components/Deals";
 import Contact from "@/components/Contact";
 import Hero from "@/components/Hero";
 import Content from "@/components/Content";
+import Address from "@/components/Address";
 
 
 export const metadata = {
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
       <Contact/>
       <Content/>
       <Deals/>
+      <Address/>
       <Footer/>
       </body>
     </html>
