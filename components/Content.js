@@ -1,8 +1,11 @@
 import React from 'react'
+import Search from './Search'
 
 const Content = () => {
   return (
-    <div>Content</div>
+    <main>
+      <Search/>
+    </main>
   )
 }
 

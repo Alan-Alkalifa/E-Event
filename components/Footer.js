@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <nav className='py-3 px-4 flex text-yellow-300 bg-blue-900 m-1 rounded-lg border border-yellow-300 bottom-0 absolute'>
+    <nav className='py-3 px-4  text-yellow-300 bg-blue-900 m-1 rounded-lg border border-yellow-300 bottom-0 w-fit'>
     <div className='justify-between flex sm:gap-x-40'>
     <section className=''>
     <a>E-Event</a>
